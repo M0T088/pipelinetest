@@ -1,5 +1,10 @@
-import moto.Hello.*
+import moto.HelloConnections.*
 
+/*def moto() {
+    HelloService service = new HelloService()
+    String show = service.checkHello()
+    echo show
+   }*/
 def var() {
     sh '''
      mvn -v
@@ -10,3 +15,4 @@ def var() {
      sshpass -V
     '''
 }
+

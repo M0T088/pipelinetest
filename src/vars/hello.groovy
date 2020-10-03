@@ -1,11 +1,11 @@
 import moto.HelloConnections.*
 
-/*def moto() {
+def moto() {
     HelloService service = new HelloService()
     String show = service.checkHello()
     echo show
-   }*/
-def var() {
+   }
+/*def var() {
     sh '''
      mvn -v
      java --version
@@ -14,5 +14,5 @@ def var() {
      ansible --version
      sshpass -V
     '''
-}
+}*/
 

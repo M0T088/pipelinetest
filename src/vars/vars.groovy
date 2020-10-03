@@ -1,3 +1,5 @@
+import moto.Hello.*
+
 def var() {
     sh '''
      mvn -v
